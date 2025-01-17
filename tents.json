@@ -4,14 +4,16 @@
       "name": "Basic Tent",
       "description": "A simple tent for beginners.",
       "price": 100,
-      "image": "basic-tent.jpg"
+      "image": "basic-tent.jpg",
+      "quantity": 2
     },
     {
       "id": 2,
       "name": "Advanced Tent",
       "description": "A tent for experienced campers.",
       "price": 250,
-      "image": "advanced-tent.jpg"
+      "image": "advanced-tent.jpg",
+      "quantity": 1
     }
   ]
   

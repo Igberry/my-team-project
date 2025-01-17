@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cart</title>
+  <link rel="stylesheet" href="styles/cart.css">
+</head>
+<body>
+  <div id="cart-items">
+    <h1>Product Name</h1>
+    <p>Product Description</p>
+    <p>Price: $XX.XX</p>
+    <!-- Cart items will be dynamically populated here -->
+    <!-- Hidden input field for product ID (replace 1 with dynamic product ID) -->
+    <input type="hidden" id="product-id" value="1"> <!-- Replace "1" with dynamic product ID -->
+    <!-- Add to Cart button -->
+    <button id="add-to-cart-btn">Add to Cart</button>
+  </div>
+  <div class="cart-footer hide">
+    <p class="cart-total">Total: $0.00</p>
+  </div>
+  <script type="module" src="scripts/cart.js"></script>
+</body>
+</html>

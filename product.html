@@ -1,14 +1,33 @@
+<!-- product-detail.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Product Detail</title>
-  <script type="module" src="scripts/product.js" defer></script>
+  <link rel="stylesheet" href="styles/cart.css">
 </head>
 <body>
-  <div id="product-detail">
-    <h1>Loading...</h1>
+  <!-- Product Detail Section -->
+  <div class="product-detail">
+    <h2>Basic Tent</h2>
+    <p>Product Description</p>
+    <p>Price: $100.00</p>
+    <!-- Hidden input field for product ID (dynamically set via JS) -->
+    <input type="hidden" id="product-id" value="1">
+    <!-- Add to Cart button -->
+    <button id="add-to-cart-btn">Add to Cart</button>
   </div>
+  <div class="product-detail">
+    <h2>Advanced Tent</h2>
+    <p>Product Description</p>
+    <p>Price: $250.00</p>
+    <!-- Hidden input field for product ID (dynamically set via JS) -->
+    <input type="hidden" id="product-id" value="2">
+    <!-- Add to Cart button -->
+    <button id="add-to-cart-btn">Add to Cart</button>
+  </div>
+
+  <script type="module" src="scripts/cart.js"></script>
 </body>
 </html>
