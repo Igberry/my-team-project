@@ -1,12 +1,13 @@
-<!-- public/index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Inventory</title>
+  <link rel="stylesheet" href="styles/cart.css" />
 </head>
 <body>
+
   <h1>Welcome to the Inventory</h1>
   <h2>Product Categories</h2>
   <ul>
@@ -15,5 +16,18 @@
     <li><a href="/products/category/Sleeping Bags">Sleeping Bags</a></li>
     <li><a href="/products/category/Hammocks">Hammocks</a></li>
   </ul>
+
+  <!-- Newsletter Signup Box -->
+  <section class="newsletter-box">
+    <h3>Sign Up for Our Newsletter</h3>
+    <p>Get the latest updates and special offers!</p>
+    <form id="newsletter-form">
+      <input type="email" id="email" name="email" placeholder="Enter your email" required />
+      <button type="submit">Subscribe</button>
+    </form>
+    <p id="message"></p>
+  </section>
+
+  <script src="scripts/product.js"></script>
 </body>
 </html>
