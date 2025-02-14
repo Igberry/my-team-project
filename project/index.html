@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Recipe Recommender</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+  <header>
+    <h1>Interactive Recipe Recommender</h1>
+  </header>
+  <main id="recipe-container">
+      <!-- Recipes will be dynamically added here -->
+  </main>
+  <footer>
+    &copy;<span id="year"></span> | David Chukwudi Igberi - Project - Interactive Recipe Recommender | WDD 330
+  </footer>
+  <script src="scripts/main.js"></script>
+  <script>
+    document.getElementById("year").innerHTML = new Date().getFullYear();
+  </script>
+  <script src="scripts/recipe.js"></script>
+</body>
+</html>
